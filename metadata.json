@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Nối cơ hội- đổi cuộc đời",
+  "description": "Nền tảng kết nối việc làm tin cậy, hỗ trợ sinh viên mới ra trường \u0026 người chưa có kinh nghiệm kết nối trực tiếp doanh nghiệp, phòng tránh lừa đảo, so sánh mức lương và hướng dẫn viết CV chuẩn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

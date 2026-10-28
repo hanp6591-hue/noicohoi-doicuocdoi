@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "usr-candidate-01",
+      "email": "mailan.nguyen@example.com",
+      "password": "password123",
+      "fullName": "Nguyễn Thị Mai Lan",
+      "role": "candidate",
+      "hasSelectedRole": true,
+      "profile": {
+        "fullName": "Nguyễn Thị Mai Lan",
+        "birthDate": "2003-08-20",
+        "email": "mailan.nguyen@example.com",
+        "currentOccupation": "Sinh viên mới tốt nghiệp - Chưa có kinh nghiệm",
+        "gender": "Nữ",
+        "phoneNumber": "0912 345 678",
+        "portfolioUrl": "https://sites.google.com/view/mailan-portfolio",
+        "isRegistered": true
+      },
+      "savedJobIds": [],
+      "roleChangeRequest": null,
+      "createdAt": "2026-10-20T04:03:16.336Z"
+    },
+    {
+      "id": "usr-recruiter-01",
+      "email": "tuyendung.tantien@example.vn",
+      "password": "password123",
+      "fullName": "Trần Thị Thu Hà",
+      "role": "recruiter",
+      "hasSelectedRole": true,
+      "employerProfile": {
+        "companyName": "Công ty Cổ phần Công nghệ & Dịch vụ Số Tân Tiến",
+        "taxCode": "0108927164",
+        "contactName": "Trần Thị Thu Hà (Trưởng phòng Nhân sự)",
+        "contactEmail": "tuyendung.tantien@example.vn",
+        "contactPhone": "0988 123 456 (Hotline & Zalo)",
+        "address": "Tầng 8, Tòa nhà Sông Đà, Phạm Hùng, Mỹ Đình 1, Nam Từ Liêm",
+        "city": "Hà Nội",
+        "isVerified": true
+      },
+      "roleChangeRequest": null,
+      "createdAt": "2026-10-20T04:03:16.336Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-01",
+      "jobId": "job-cnkt-01",
+      "jobTitle": "Thực tập sinh Lập trình Frontend (Fresher)",
+      "companyName": "Công ty Cổ phần Công nghệ & Dịch vụ Số Tân Tiến",
+      "candidateId": "usr-candidate-01",
+      "candidateName": "Nguyễn Thị Mai Lan",
+      "candidateEmail": "mailan.nguyen@example.com",
+      "candidatePhone": "0912 345 678",
+      "portfolioUrl": "https://sites.google.com/view/mailan-portfolio",
+      "coverNote": "Em là sinh viên mới tốt nghiệp, đã tự học React & Tailwind CSS. Mong muốn được học hỏi và cống hiến cho công ty.",
+      "appliedDate": "Hôm nay, 08:30",
+      "status": "Đã gửi hồ sơ",
+      "recruiterId": "usr-recruiter-01"
+    },
+    {
+      "id": "app-02",
+      "jobId": "job-cnkt-01",
+      "jobTitle": "Thực tập sinh Lập trình Frontend (Fresher)",
+      "companyName": "Công ty Cổ phần Công nghệ & Dịch vụ Số Tân Tiến",
+      "candidateId": "usr-candidate-02",
+      "candidateName": "Trần Văn Hoàng",
+      "candidateEmail": "hoang.tranvan@gmail.com",
+      "candidatePhone": "0987 654 321",
+      "portfolioUrl": "https://sites.google.com/view/hoangtran-cv",
+      "coverNote": "Chào anh/chị, em có kiến thức về JavaScript, HTML/CSS và muốn tìm cơ hội thực tập trực tiếp không qua trung gian.",
+      "appliedDate": "Hôm qua, 15:45",
+      "status": "Doanh nghiệp đã xem",
+      "recruiterId": "usr-recruiter-01"
+    },
+    {
+      "id": "app-03",
+      "jobId": "job-dvvt-01",
+      "jobTitle": "Nhân viên Hỗ trợ Vận hành & Kho bãi",
+      "companyName": "Công ty Cổ phần Công nghệ & Dịch vụ Số Tân Tiến",
+      "candidateId": "usr-candidate-03",
+      "candidateName": "Lê Thanh Tùng",
+      "candidateEmail": "tung.lethanh@gmail.com",
+      "candidatePhone": "0903 112 233",
+      "coverNote": "Em muốn ứng tuyển làm việc ca linh hoạt, có sức khỏe tốt và tính cẩn thận.",
+      "appliedDate": "2 ngày trước",
+      "status": "Mời phỏng vấn",
+      "recruiterId": "usr-recruiter-01"
+    }
+  ],
+  "postedJobs": []
+}
